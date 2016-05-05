@@ -1,7 +1,7 @@
 from django.conf.urls import url
 from . import views
 
-
+app_name = "polls"
 urlpatterns = [
 	# This will display: /polls/
 	url(r'^$', views.index, name = "index"),
